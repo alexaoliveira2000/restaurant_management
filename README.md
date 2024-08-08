@@ -6,14 +6,14 @@ This project can be used to understand how a server (Express - Node.js) can prov
 
 To run this project:
 
-1- Make sure you have Node.js and MySQL installed on your computer;
-2- Download folder and open it in some IDE (e.g., VSCode);
-3- Change file "config/connection.js" to your MySQL parameters;
-3- In MySQL, run "queries.sql" code to create the relational database (tables and connections) and some dummy records;
-3- Open new terminal;
-4- Run command "npm install" to create folder "node_modules" and install all needed packages;
-5- Run command "node app.js" to start running the server;
-6- Open "localhost:3000" on your browser.
+1. Make sure you have Node.js and MySQL installed on your computer;
+2. Download folder and open it in some IDE (e.g., VSCode);
+3. Change file "config/connection.js" to your MySQL parameters;
+3. In MySQL, run "queries.sql" code to create the relational database (tables and connections) and some dummy records;
+3. Open new terminal;
+4. Run command "npm install" to create folder "node_modules" and install all needed packages;
+5. Run command "node app.js" to start running the server;
+6. Open "localhost:3000" on your browser.
 
 # Database
 
