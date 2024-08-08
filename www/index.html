@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./scripts/common.js"></script>
+    <script src="./scripts/tables.js"></script>
+    <script src="./scripts/products.js"></script>
+    <script src="./scripts/productTypes.js"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script>
+        window.onload = loadTablesPage;
+    </script>
+
+</head>
+<body>
+    <header>
+        <div class="header-title">
+            <h1>Restaurant Management</h1>
+        </div>
+    </header>
+    <div class="subheader">
+        <ul>
+            <li><a class="area-item" href="#" onclick="loadTablesPage()" id="tables">Tables</a></li>
+            <li><a class="area-item" href="#" onclick="loadProductsPage()" id="products">Products</a></li>
+            <li><a class="area-item" href="#" onclick="loadProductTypesPage()" id="product_types">Product Types</a></li>
+        </ul>
+    </div>
+
+        <main class="main"></main>
+
+</body>
+</html>
